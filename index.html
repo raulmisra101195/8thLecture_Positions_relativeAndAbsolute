@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent
+        {
+            position:relative;
+            height:500px;
+            width:500px;
+            border:1px solid black;
+        }
+        .common
+        {
+            height:200px;
+            width:200px;
+            position:absolute;
+        }
+        .child1
+        {
+            top:0px;
+            left:0px;
+            background-color: violet;
+        }
+        .child2
+        {
+            top:0px;
+            right:0px;
+            background-color: green;
+        }
+        .child3
+        {
+            bottom:0px;
+            left:0px;
+            background-color: orange;
+        }
+        .child4
+        {
+            right:0px;
+            bottom:0px;
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1 common"></div>
+        <div class="child2 common"></div>
+        <div class="child3 common"></div>
+        <div class="child4 common"></div>
+    </div>
+</body>
+</html>
